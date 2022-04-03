@@ -1,0 +1,22 @@
+package br.com.luiz.zoologico.entities;
+
+public class Peixe extends Animal{
+	
+	private String barbatanas;
+	private String cauda;
+	
+	public String getBarbatanas() {
+		return barbatanas;
+	}
+	public void setBarbatanas(String barbatanas) {
+		this.barbatanas = barbatanas;
+	}
+	public String getCauda() {
+		return cauda;
+	}
+	public void setCauda(String cauda) {
+		this.cauda = cauda;
+	}
+	
+
+}

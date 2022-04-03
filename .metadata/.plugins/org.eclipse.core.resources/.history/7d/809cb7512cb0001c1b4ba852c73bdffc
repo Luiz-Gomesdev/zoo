@@ -1,0 +1,11 @@
+package br.com.luiz.zoologico.entities;
+
+public class Mamifero extends Animal{
+	
+	public Animal(){
+		this.setAmbiente("terra");
+	}
+
+	
+
+}

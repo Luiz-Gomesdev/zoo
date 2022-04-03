@@ -1,0 +1,32 @@
+package br.com.luiz.zoologico.entities;
+
+public class Mamifero extends Animal{
+	
+	private String alimento;
+
+	public Mamifero(){
+		this.alimento = "mel";
+		this.setCor("castanho");
+		this.setAmbiente("terra");
+	}
+
+	public String getAlimento() {
+		return alimento;
+	}
+
+	public void setAlimento(String alimento) {
+		this.alimento = alimento;
+	}
+
+	@Override
+	public String toString() {
+		String s = super.toString();
+		s += "Alimento: " + alimento;
+		s += "\n------------------------" + "\n";
+		
+		return s;
+	}
+
+	
+	
+}

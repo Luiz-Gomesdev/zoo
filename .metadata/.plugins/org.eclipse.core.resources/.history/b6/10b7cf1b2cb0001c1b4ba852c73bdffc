@@ -1,0 +1,22 @@
+package br.com.luiz.zoologico.entities;
+
+public class Peixe extends Animal{
+	
+	private String caracteristicas;
+	
+	public Peixe() {
+		this.setPatas(0);
+		this.setAmbiente("mar");
+		this.setCor("cinzenta");
+	}
+
+	public String getCaracteristicas() {
+		return caracteristicas;
+	}
+
+	public void setCaracteristicas(String caracteristicas) {
+		this.caracteristicas = caracteristicas;
+	}
+	
+
+}

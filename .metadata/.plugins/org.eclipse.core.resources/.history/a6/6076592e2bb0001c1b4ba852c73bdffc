@@ -1,0 +1,5 @@
+package br.com.luiz.zoologico.entities;
+
+public class Animal {
+
+}

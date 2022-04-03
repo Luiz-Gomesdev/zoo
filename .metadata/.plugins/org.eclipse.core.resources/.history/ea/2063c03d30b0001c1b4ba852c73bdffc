@@ -1,0 +1,24 @@
+package br.com.luiz.zoologico.application;
+
+import br.com.luiz.zoologico.entities.Animal;
+import br.com.luiz.zoologico.entities.Mamifero;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Animal animal = new Animal();
+				
+		Mamifero camelo = new Mamifero();
+		camelo.setNome("Camelo");
+		camelo.setComprimento(150);
+		camelo.setPatas(4);
+		camelo.setCor("Amarelo");
+		camelo.setAmbiente("Terra");
+		camelo.setVelocidade(2.0);
+		
+		System.out.println(camelo);
+	 	
+	}
+
+}
